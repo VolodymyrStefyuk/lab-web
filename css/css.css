@@ -16,14 +16,11 @@
     font-weight: normal; 
     font-style: normal;  
 }
-
-
-
 *{
-font-size: 18px;
-color: #021725;
-     margin: 0px;
-     font-family: 'OpenSansLight';
+    font-size: 18px;
+    color: #021725;
+    margin: 0px;
+    font-family: 'OpenSansLight';
 }
 .container{
     width: 55%;
@@ -36,7 +33,6 @@ color: #021725;
     max-width: 800px;
     min-width: 300px;
 }
-
 .container h5{
     margin-top: 60px;
     color: #D4AF37;
@@ -44,7 +40,6 @@ color: #021725;
     text-transform:uppercase;
     font-family: 'OpenSansSemibold';
 }
-
 .container h2{
     margin-top: 15px;
     margin-bottom: 20px;
@@ -56,9 +51,7 @@ color: #021725;
     margin-top: 40px;
     margin-bottom:20px;
     color: #021725; 
-
 }
-
 .container > a,.textBlog>a{
     border: 2px solid #021725; 
     display: inline-block;
@@ -69,34 +62,32 @@ color: #021725;
     font-family: 'OpenSansLight';
     margin-top: 20px;
     margin-bottom: 2.5rem;
-  }
-.ingexHeder{
+}
+header{
     background: url('../image/headerBackground.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 60vw;
     width: 100%;
+}
+h1 { 
     position: absolute;
     top: 28vw;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5.74vw;
     width: 84%;
-}
-
-h1 { 
     font-family: 'OpenSansLightItalic';
     color: #ffffff;
     letter-spacing: 0.5vw;
 }
 h4{
     font-size: 0.944444444rem;
-
 }
 .logo{
-   margin-top: 3%;
-   margin-left: 3%;
-   width: 20%;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 20%;
 }
 .menu{
     float: right;
@@ -119,7 +110,6 @@ h4{
     text-transform:uppercase;
     color: #ffffff;
 }
-
 .AmazingWork{
     margin-top: 5vh;
     display: flex;
@@ -129,13 +119,11 @@ h4{
     margin-bottom: 60px;
     margin-top: 50px;
 }
-
 .AmazingWork img{
     margin: 2px;
-   width: 24.7%;
-   min-width: 320px;
+    width: 24.7%;
+    min-width: 320px;
 }
-
 .amazingPeople{
     margin-top: 5vh;
     display: flex;
@@ -145,13 +133,12 @@ h4{
     margin-bottom: 60px;
     margin-top: 50px;
 }
-
 .people{
     background-color: #F9F9F9;
     max-width: 243px;
     width: 100%;
- margin: 2px;
- margin-bottom: 1rem;
+    margin: 2px;
+    margin-bottom: 1rem;
 }
 .people h4{
     float: left;
@@ -159,9 +146,9 @@ h4{
     margin: 0;
     text-align: left;
     margin-left: 1rem;
-   margin-right: 1rem;
-   margin-top: 1rem;
-   margin-bottom: 1.7rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
 }
 .people h5{
     float: left;
@@ -180,8 +167,6 @@ h4{
     margin-right: 1rem;
     margin-bottom: 2rem;
 }
-
-
 .homeBlog{
     background-color: #F9F9F9;
     display: inline-block;
@@ -216,13 +201,11 @@ h4{
     margin: 0;
     margin-bottom: 2.5rem;
 }
-
 h3{
     font-size: 1.722222222rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
-
 #map {
     width: 100%;
     max-width: 800px;
@@ -230,7 +213,6 @@ h3{
     min-width: 320px;
     background-color: #2E3192;
 }
-
 .contactInformation{
     width: 100%;
 }
@@ -240,13 +222,11 @@ h3{
     color: #505D68;
     font-size:0.72222222222rem
 }
-
 .contact p{
     margin: 0;
     margin-bottom: 2rem;
     font-size: 0.9473rem;
 }
-
 .contact {
     background-color: #F9F9F9;
     width: 50%;
@@ -259,7 +239,6 @@ text-align: center;
     float: right;
     border-bottom: 1rem;
 }
-
 .phone p{
     border-bottom: 1rem;
     }
@@ -270,7 +249,6 @@ text-align: center;
     background-color: #F9F9F9;
     margin-bottom: 3rem;
 }
-
 footer{
     background-color: #EEEEEE;
     margin-top: 370px; 
@@ -282,7 +260,6 @@ footer .container{
     align-items: center;
     flex-wrap: wrap;
 }
-
 footer .container p{
     margin-top: 1.2rem;
     font-size: 0.888888889rem;
