@@ -1,3 +1,272 @@
+@font-face{
+    font-family: 'OpenSansLightItalic';
+    src: url('../fonts/Open Sans Light Italic.ttf');
+    font-weight: normal; 
+    font-style: normal;  
+}
+@font-face{
+    font-family: 'OpenSansLight';
+    src: url('../fonts/Open Sans Light.ttf');
+    font-weight: normal; 
+    font-style: normal;  
+}
+@font-face{
+    font-family: 'OpenSansSemibold';
+    src: url('../fonts/Open Sans Semibold.ttf');
+    font-weight: normal; 
+    font-style: normal;  
+}
+*{
+    font-size: 18px;
+    color: #021725;
+     margin: 0px;
+     font-family: 'OpenSansLight';
+}
+.container{
+    width: 55%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    min-width: 300px;
+}
+.container h5{
+    margin-top: 60px;
+    color: #D4AF37;
+    font-size: 0.7222222222rem;
+    text-transform:uppercase;
+    font-family: 'OpenSansSemibold';
+}
+.container h2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #021725; 
+    font-size: 2.4444444444rem;
+    font-family: 'OpenSansSemibold';
+}
+.container p{
+    margin-top: 40px;
+    margin-bottom:20px;
+    color: #021725; 
+}
+.container > a,.textBlog>a{
+    border: 2px solid #021725; 
+    display: inline-block;
+    font-size: 0.777777777778rem;
+    padding: 1rem 2rem; 
+    text-decoration: none; 
+    color: #021725; 
+    font-family: 'OpenSansLight';
+    margin-top: 20px;
+    margin-bottom: 2.5rem;
+}
+.indexHeader{
+    background: url('../image/headerBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60vw;
+    width: 100%;
+}
+h1 { 
+    position: absolute;
+    top: 28vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5.74vw;
+    width: 84%;
+    font-family: 'OpenSansLightItalic';
+    color: #ffffff;
+    letter-spacing: 0.5vw;
+}
+h4{
+    font-size: 0.944444444rem;
+}
+.logo{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 20%;
+}
+.menu{
+    float: right;
+    margin-top: 4%;
+    margin-right: 3%;
+    width: 8%;
+    min-width: 70px;
+}
+.menu img {
+    position: relative;
+    cursor: pointer;
+    display: inline-block; 
+    height: 13px;
+}
+.menu p {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    text-transform:uppercase;
+    color: #ffffff;
+}
+.AmazingWork{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.AmazingWork img{
+    margin: 2px;
+    width: 24.7%;
+    min-width: 320px;
+}
+.amazingPeople{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.people{
+    background-color: #F9F9F9;
+    max-width: 243px;
+    width: 100%;
+    margin: 2px;
+    margin-bottom: 1rem;
+}
+.people h4{
+    float: left;
+    font-size: 1.1666666667rem;
+    margin: 0;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+}
+.people h5{
+    float: left;
+    margin: 0;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 10rem;
+    margin-top: 0.8rem;
+}
+.people p{
+    font-size: 0.722222222rem;
+    float: left;
+    margin: 0;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.homeBlog{
+    background-color: #F9F9F9;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    color: #505D68;
+}
+.homeBlog img{
+    float: left;
+    width: 100%;
+    max-width: 350px;
+}
+.textBlog{
+    float: right;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    text-align: left;
+}
+.textBlog h5{
+    margin: 0;
+    
+}
+.textBlog p{
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+.textBlog a{
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+h3{
+    font-size: 1.722222222rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+#map {
+    width: 100%;
+    max-width: 800px;
+    height: 40vh;
+    min-width: 320px;
+    background-color: #2E3192;
+}
+.contactInformation{
+    width: 100%;
+}
+.contact h5{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    color: #505D68;
+    font-size:0.72222222222rem
+}
+.contact p{
+    margin: 0;
+    margin-bottom: 2rem;
+    font-size: 0.9473rem;
+}
+.contact {
+    background-color: #F9F9F9;
+    width: 50%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+text-align: center;
+}
+.phone, .fax{
+    float: right;
+    border-bottom: 1rem;
+}
+.phone p{
+    border-bottom: 1rem;
+    }
+.location, .email{
+    float: left;
+}
+.textContact{
+    background-color: #F9F9F9;
+    margin-bottom: 3rem;
+}
+footer{
+    background-color: #EEEEEE;
+    margin-top: 370px; 
+}
+footer .container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .container p{
+    margin-top: 1.2rem;
+    font-size: 0.888888889rem;
+}
+
+
+
 
 
 
