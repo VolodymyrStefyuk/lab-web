@@ -1,0 +1,95 @@
+
+
+
+.headerBlog{
+    background: url('../image/headerBlog.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 31.25vw;
+    width: 100%;
+}
+
+.allBlog{
+    background: #F9F9F9;
+    width: 90%;
+    display: inline-block;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.rightCol{
+    margin-top: 4%;
+    width: 30%;
+    float: right;
+
+}
+.rightCol img{
+    width: 90%;
+    max-height: 300px;
+    height: 90%;
+    margin: auto;
+}
+.leftCol{
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.post{
+    margin: auto;
+    background: #ffffff;
+}
+.post h2{
+    font-size: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.post p{
+    margin-top: 1rem;
+    width: 90%;
+}
+.post h5{
+    font-size: 15px;
+    color: #D6AE00;
+   
+}
+.post img{
+    width: 92%;
+      margin-top: 4%;
+}
+.post > *{
+    margin-left: 4%;
+}
+
+.post2{
+margin-top: 4%;
+}
+.line{
+    background-color: #D6AE00;
+    width: 90%;
+    height: 4px;
+    margin-bottom: 1.2rem;
+}
+.post > a, .post ~ a{
+    border: 2px solid #021725; 
+    display: inline-block;
+    font-size: 0.777777777778rem;
+    padding: 1rem 2rem; 
+    text-decoration: none; 
+    color: #021725; 
+    font-family: 'OpenSansLight';
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+.post ~ a{
+float: right;
+margin-right: 5%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.blogFooter{
+margin-top: 5%;
+
+}
