@@ -110,6 +110,25 @@ h4{
     text-transform:uppercase;
     color: #ffffff;
 }
+.dropdown-child {
+    display: none;
+    min-width: 100px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(138, 138, 138, 0.45);
+
+}
+.menu:hover .dropdown-child {
+    display: block;
+}
+
+
+
 .AmazingWork{
     margin-top: 5vh;
     display: flex;
